@@ -64,7 +64,7 @@ export const ProductDetail = () => {
                     </p>
                     <div className="ratings flex gap-1">
                         <p>4.2</p>
-                        <div className="stars flex">{showStarRating(2)}</div>
+                        <div className="stars flex">{showStarRating(4)}</div>
                     </div>
                     <div className="font-medium text-2xl gap-1 flex">
                         <span className="font-normal">₹‎</span>

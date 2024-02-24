@@ -177,7 +177,6 @@ export const Products = () => {
                         </div>
                         <SheetFooter>
                             <Button className="bg-green-600 hover:bg-green-700" onClick={() => {
-                                // TODO:
                                 toast.promise(new Promise((resolve, reject) => {
                                     setTimeout(resolve, 2000)
                                 }), {
@@ -188,7 +187,7 @@ export const Products = () => {
                                         return "toast success"
                                     },
                                     error: "Error",
-                                    position:"bottom-center"
+                                    position: "bottom-center"
                                 })
                             }}>Add Product</Button>
                         </SheetFooter>

@@ -1,0 +1,5 @@
+- redirect pages based on user type (farmer, seller, consumer)
+- cart page, checkout page
+- profile or settings page 
+- integrate razorpay payment gateway
+- integrate with backend
