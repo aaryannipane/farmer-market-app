@@ -91,7 +91,6 @@ export const Products = () => {
                         setSheetOpen(!sheetOpen)
                     }
                 }}>
-
                     <SheetTrigger asChild><Button className="bg-green-300 text-black hover:bg-green-400 mb-2">
                         <PlusCircle className="mr-1 text-black" />
                         Add Product</Button></SheetTrigger>

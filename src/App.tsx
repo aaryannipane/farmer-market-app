@@ -5,6 +5,7 @@ import { Dashboard } from './pages/Dashboard/Dashboard'
 import { Products } from './pages/Products/Products'
 import { Navbar } from './components/custom/Navbar'
 import { ProductDetail } from './pages/ProductDetail/ProductDetail'
+import { Cart } from './pages/Cart/Cart'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/products" element={<Products />} />
             <Route path="/product/abc" element={<ProductDetail />} />
+            <Route path="/cart" element={<Cart />} />
           </Routes>
         </BrowserRouter>
         {/* <Dashboard /> */}

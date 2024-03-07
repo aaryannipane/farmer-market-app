@@ -18,6 +18,7 @@ export const Navbar = () => {
                         </div>
                         <div className="hover:text-gray-400"> <Link to={"/products"}>Products</Link></div>
                         <div className="hover:text-gray-400"> <Link to={"/product/abc"}>product abc</Link></div>
+                        <div className="hover:text-gray-400"> <Link to={"/cart"}>Cart</Link></div>
                         <div className="hover:text-gray-400"> Sign Out</div>
                     </div>
                 </nav>
